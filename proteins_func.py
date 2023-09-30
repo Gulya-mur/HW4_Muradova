@@ -26,8 +26,7 @@ def count_uniq_max_mass(protein_mass):
     """
     max_weight = max(protein_mass.values())
     count_protein = 0
-    proteins = []
-    
+    proteins = [] 
     for i in protein_mass:
         if protein_mass[i] == max_weight:
             count_protein += 1
