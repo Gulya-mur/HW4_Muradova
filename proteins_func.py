@@ -5,10 +5,6 @@ def calc_protein_mass(sequence: str) -> int:
     """
     return len(sequence) * 110
 
-def count_uniq_mass():
-
-    pass
-
 
 def heaviest_protein(sequence: list):
     """
